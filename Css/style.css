@@ -1,5 +1,14 @@
 /*---- header ----*/
 
+.team-slider img {
+    filter: grayscale(100%);
+    transition: all .5s ease;
+}
+
+.team-slider img:hover {
+    filter: grayscale(0);
+    transform: rotate(360deg)
+}
 
 /*---- main ----*/
 main .hero-section {
@@ -25,7 +34,7 @@ main .location .adress p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
+    height: 370px;
 }
 
 .bg-photo2 {
@@ -34,7 +43,7 @@ main .location .adress p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
+    height: 370px;
 }
 
 .bg-photo3 {
@@ -43,7 +52,7 @@ main .location .adress p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
+    height: 370px;
 }
 
 .bg-photo4 {
@@ -52,11 +61,22 @@ main .location .adress p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
+    height: 370px;
 }
 
-.about {
+/*.about {
     padding: 100px 280px;
+}*/
+
+.adress {
+    padding-left: 90px;
+}
+
+.hr {
+    background: #d6d6d6;
+    height: 1px;
+    width: 300px;
+    margin: 13px 0px;
 }
 
 /*---- footer ----*/
@@ -70,4 +90,10 @@ footer img {
 
 footer p {
     color: white;
+}
+
+footer i {
+    color: white;
+    margin: 0 15px;
+    font-size: 25px;
 }
