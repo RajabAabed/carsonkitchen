@@ -1,0 +1,73 @@
+/*---- header ----*/
+
+
+/*---- main ----*/
+main .hero-section {
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+main .location .adress img {
+    width: 40%;
+}
+
+main .location .adress p {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-photo1 {
+    background-image: url(../images/1h.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.bg-photo2 {
+    background-image: url(../images/2h.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.bg-photo3 {
+    background-image: url(../images/3h.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.bg-photo4 {
+    background-image: url(../images/4h.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.about {
+    padding: 100px 280px;
+}
+
+/*---- footer ----*/
+footer {
+    background-color: #292929;
+}
+
+footer img {
+    width: 70%;
+}
+
+footer p {
+    color: white;
+}
