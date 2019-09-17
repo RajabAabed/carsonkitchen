@@ -1,5 +1,11 @@
 $(function () {
+
+    $('.loading').fadeOut();
+    /*loading*/
+
     new WOW().init();
+    /*wow Js*/
+
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 30,
@@ -15,5 +21,22 @@ $(function () {
                 items: 5
             }
         }
-    })
+    });
+    /*carousel*/
+
+
+    $(document).scroll(function () {
+        var top = $(document).scrollTop();
+        if (top > 100) {
+            $('header').addClass('scroll');
+            $('.cl').css("color", "#343a40");
+        } else {
+            $('header').removeClass('scroll');
+            $('.cl').css("color", "#fff");
+        }
+    });
+    /*header fixd*/
+
+
+
 })
